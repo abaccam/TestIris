@@ -23,11 +23,6 @@
     color: white;
   }
 
-  /* div .myAccount {
-    display: block;
-    color: white;
-  } */
-
   .asideDiv {
     height: 500px;    
     width: 300px;
@@ -60,6 +55,7 @@ body {
 
 body a{
   text-decoration: none;
+  color:rgb(156, 156, 156);
 }
 
 .container-row{
@@ -88,7 +84,7 @@ header {
 }
 
 .headerPic {
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .headerMessage {
@@ -99,10 +95,6 @@ header {
 a.myAccount {
   display: none;
 }
-
-/* div .myAccount {
-  display: none;
-} */
 
 .socialIconNav{
   display: none;
@@ -122,8 +114,13 @@ a.myAccount {
   margin: 0px 5px 0px 5px;
 }
 
-.ariane {
+a.home {
   height: 25px;
+  color:black;
+}
+
+a .ariane{
+  color:red;
 }
 
 /* ASIDE */
@@ -185,3 +182,14 @@ a.myAccount {
   text-align: center;
 }
 
+#un{
+  border:1px solid blue;
+  width: 280px;
+  justify-content: space-around;
+}
+
+#deux{
+  border:1px solid blue;
+  width: 220px;
+  justify-content: space-around;
+}
