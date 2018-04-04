@@ -1,13 +1,13 @@
 "use strict";
 
-let socialIcon = document.querySelector('.socialIcon');
+let socialIconNav = document.querySelector('.socialIconNav');
 let socialLink = document.querySelector('#socialLink');
 // let socialLink = document.querySelector('.headerMessage');
 
 socialLink.addEventListener('click', function () {
-  socialIcon.style.display = 'block';
+  socialIconNav.style.display = 'block';
 });
 
 socialLink.addEventListener('dblclick', function () {
-  socialIcon.style.display = 'none';
+  socialIconNav.style.display = 'none';
 });

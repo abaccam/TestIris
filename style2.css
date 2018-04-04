@@ -4,21 +4,39 @@
     flex-direction: row;
     justify-content: space-around;
   }
+
   nav {
     display: none;
   }
+
+  div .socialIcon{
+    display: block;
+    color:white;
+  }
+  
   header {
-    height: 292px;
     background-image: url("./assets/images/header/rectangle.png");
   }
+  
+  div a.myAccount {
+    display: block;
+    color: white;
+  }
+
+  /* div .myAccount {
+    display: block;
+    color: white;
+  } */
 
   .asideDiv {
     height: 500px;    
     width: 300px;
   }
+
   table {
     border-left: 3px solid #e42618;
   }
+
   .article h2{
     font-size: 20px;
   }
@@ -65,7 +83,7 @@ nav {
 }
 
 header {
-  height: 130px;
+  height: 292px;
   background-color: #e5001c; 
 }
 
@@ -78,9 +96,21 @@ header {
   text-align: center;
 }
 
-.socialIcon{
+a.myAccount {
+  display: none;
+}
+
+/* div .myAccount {
+  display: none;
+} */
+
+.socialIconNav{
   display: none;
   color: grey;
+}
+
+.socialIcon{
+  display: none;
 }
 
 #socialLink{
