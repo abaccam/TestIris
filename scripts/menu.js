@@ -11,3 +11,8 @@ socialLink.addEventListener('click', function () {
 socialLink.addEventListener('dblclick', function () {
   socialIconNav.style.display = 'none';
 });
+
+$('#tooltipFaq').tooltip({ content: '<div>Frequently Asked Questions</div>' 
+});
+
+  
